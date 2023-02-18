@@ -1,0 +1,151 @@
+/*   body  */
+
+.head1 {
+    background-image: url(http://source.unsplash.com/1600x900/?exam);
+    border-image-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+
+.tr1 {
+    background-color: #474e5d;
+    color: white;
+}
+
+.logo {
+    color: white;
+    margin: 40px 0px;
+    text-shadow: #000000 4px 4px 10px;
+}
+
+
+td:hover{
+background-color: #bcc9e4;
+}
+
+
+.header-wrapper {
+    background-color: #000000;
+}
+
+nav {
+    background-color: #000000;
+}
+
+.box1 {
+    padding: 0px 20px;
+}
+
+.box2 {
+    padding: 0px 20px;
+}
+
+.box5 {
+    padding: 0px 20px;
+}
+
+.form-control {
+    margin-right: 3px;
+}
+
+.btn {
+    color: white;
+    border: 1px solid white;
+    margin: 0px 3px;
+}
+
+.footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    background-color: rgb(32, 31, 31);
+}
+
+@media screen and (max-width: 649px) {
+    .site {
+        display: grid;
+        grid-template-rows: 0.1fr 1fr 1fr;
+        width: 100%;
+        
+        margin-top: 20px;
+    }
+
+    .box1 {
+        grid-row: 2;
+        width: 100%;
+    }
+
+    .box2 {
+        grid-row: 1;
+        width: 100%;
+    }
+
+    .box5 {
+        grid-row: 3;
+        width: 100%;
+    }
+
+    .pres {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .site {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .box1 {
+        grid-column: 1;
+        width: 100%;
+    }
+
+    .box2 {
+        grid-column: 2;
+        width: 100%;
+    }
+
+    .box5 {
+        grid-column: 3;
+        width: 100%;
+    }
+
+    .pres {
+        width: 100px;
+    }
+}
+
+.table_hvr td:hover {background-color: rgb(203, 201, 204);}
+
+
+.rcm1 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.ora {
+    width: 100%;
+
+}
+
+.bbox {
+    background-color: aquamarine;
+    width: 70px;
+    box-shadow: 1px;
+    height: 100px;
+
+}
+
+.ht1 {
+    margin-top: 150px;
+}
+
+
+.rest{
+    height: auto;
+}
